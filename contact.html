@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak EduSpark</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js"></script>
+</head>
+<body>
+  
+<header>
+  <div class="container">
+    <div class="logo-container">
+      <img src="assets/logo.png" alt="Logo EduSpark" class="logo">
+      <span class="logo-text">EduSpark</span>
+    </div>    
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="features.html">Fitur</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="contact-form animate">
+  <div class="container">
+    <h2>Hubungi Kami</h2>
+    <form onsubmit="kirimPesan(); return false;">
+      <input type="text" placeholder="Nama" required /><br />
+      <input type="email" placeholder="Email" required /><br />
+      <input type="text" placeholder="Minat Belajar" required /><br />
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+</section>

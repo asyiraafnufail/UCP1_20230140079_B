@@ -1,0 +1,229 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fefefe;
+  color: #333;
+}
+
+.content h2, .content h3 {
+  text-align: center;
+}
+
+.content video {
+  display: block;
+  margin: 1em auto;
+}
+
+.content p {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background-color: #0a66c2;
+  padding: 1em 0;
+  color: white;
+}
+
+.logo {
+  height: 40px;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover, nav a.active {
+  text-decoration: underline;
+}
+
+.hero {
+  background: linear-gradient(to right, #dbeafe, #eff6ff);
+  padding: 4em 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2em;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+}
+
+.hero-text p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.cta-button {
+  background: #0a66c2;
+  color: white;
+  padding: 0.75em 1.5em;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image img {
+  max-width: 70%;
+  height: auto;
+}
+
+.highlights {
+  background-color: #f9fafb;
+  padding: 3em 0;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-width: 250px;
+  text-align: center;
+}
+
+.card img {
+  height: 80px;
+  margin-bottom: 1em;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 0.75em;
+  text-align: center;
+}
+
+.team-img {
+  display: block;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 200px;
+  border-radius: 12px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-text {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+}
+
+.contact-form {
+  background: linear-gradient(145deg, #e0f2fe, #ffffff);
+  text-align: center;
+  padding: 4em 0;
+  animation: fadeInUp 1s ease-out both;
+}
+
+.contact-form h2 {
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: #0a66c2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.contact-form form {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 2em;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form input,
+.contact-form button {
+  width: 100%;
+  padding: 0.75em 1em;
+  margin: 0.75em 0;
+  font-size: 1em;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact-form input:focus {
+  border-color: #0a66c2;
+  outline: none;
+  box-shadow: 0 0 8px rgba(10, 102, 194, 0.2);
+}
+
+.contact-form button {
+  background-color: #0a66c2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background-color: #084d9d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
